@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/booktripstyle.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="Assets/css/lastpro.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>BookTrip</title>
+</head>
+
+<body>
+
+    <!-- HEADER**************HTML -->
+
+    <header class="header-bg">
+        <nav class="top_nav py-3 bg-dark bg-opacity-50 d-none d-lg-block">
+            <div class="container">
+                <div class="row top_nav_row">
+                    <div class="col-8 col-lg-6 col-xl-8 top_email_col">
+                        <div class="nav_email_phone d-flex gap-0 column-gap-5">
+                            <a href="#" class="text-white text-decoration-none fs-7" aria-label="Phone"><span
+                                    class="p-1"><i class="fa-solid fa-phone" style="color: #ffdd00;"></i></span>+123
+                                4567 8900</a>
+                            <a href="#" class="text-white text-decoration-none fs-7" aria-label="Email"><span
+                                    class="p-1"><i class="fa-solid fa-envelope"
+                                        style="color: #ffdd00;"></i></span>free@psdfree.com</a>
+                        </div>
+                    </div>
+                    <div class="col-2 col-lg-3 col-xl-2 top_icon_col d-none d-lg-block">
+                        <div class="nav_login d-flex justify-content-end gap-0 column-gap-3">
+                            <a href="#"><span class="p-1"><i class="fa-brands fa-facebook-f"
+                                        style="color: #ffdd00;"></i></span></a>
+                            <a href="#"><span class="p-1"><i class="fa-brands fa-google-plus-g"
+                                        style="color: #ffdd00;"></i></span></a>
+                            <a href="#"><span class="p-1"><i class="fa-brands fa-vk"
+                                        style="color: #ffdd00;"></i></span></a>
+                            <a href="#"><span class="p-1"><i class="fa-brands fa-youtube"
+                                        style="color: #ffdd00;"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="col-2 col-lg-3 col-xl-2 top_login_col">
+                        <div class="nav_login d-flex justify-content-end gap-0 column-gap-3">
+                            <a href="#" id="loginLink" class="text-white text-decoration-none fs-7" aria-label="login">
+                                <span class="p-1"><i class="fa-solid fa-user" style="color: #ffdd00;"></i></span>Login
+                            </a>
+                            <a href="#" class="text-white text-decoration-none fs-7" aria-label="signup"><span
+                                    class="p-1"><i class="fa-solid fa-key" style="color: #ffdd00;"></i></span>Sign
+                                Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_line mt-2">
+                    <!-- NAVBAR------LINE -->
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-dark bg-opacity-50 p-0">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/images/Travel-logo.png" alt="#"></a>
+                <button class="nav_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon d-lg-none fs-2"><i class="fa-solid fa-bars"
+                            style="color: #ffffff;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white m-2 fw-bold" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link text-white m-2 fw-bold" href="#">DESTINATION</a>
+                        <a class="nav-link text-white m-2 fw-bold" href="#">DISCOUNT</a>
+                        <a class="nav-link text-white m-2 fw-bold" href="#">ABOUT</a>
+                        <a class="nav-link text-white m-2 fw-bold" href="#">BLOG</a>
+                        <a class="nav-link text-white m-2 fw-bold" href="#">ABOUT</a>
+                        <a class="nav-link text-white m-2 fw-bold d-lg-none" href="#">LOG IN</a>
+                        <a class="nav-link text-white m-2 fw-bold d-lg-none" href="#">SIGN UP</a>
+                        <div class="d-flex my-3 justify-content-evenly d-lg-none">
+                            <span class="p-1 text-white"><i class="fa-solid fa-phone" style="color: #ffdd00;"></i> +123
+                                4567 8900</span>
+                            <span class="p-1 text-white"><i class="fa-solid fa-envelope" style="color: #ffdd00;"></i>
+                                free@psdfree.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header_content">
+            <h1 class="header_top_headng text-white common_font">Start Your Greatest</h1>
+            <h2 class="header_bottom_heading text-white common_font">ADVENTURE WITH US!</h2>
+            <p class="header_para text-white pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                explicabo sit amet, consectetur adipisicing
+                elit. Cum explicabo lorem ipsum sit amet.</p>
+            <button class="header_btn">CLICK HERE</button>
+        </div>
+    </header>
+
+    <!--USER-INPUT-SECTION**************HTML -->
+
+    <section class="hero_sec_bg">
+        <div class="container">
+            <div class="hero_sec_content">
+                <h2 class="hero_sec_heading common_font text-center">FIND HOTELS</h2>
+                <form action="">
+                    <div
+                        class="row gap-0 column-gap-md-3 row-gap-3 justify-content-around justify-content-xl-start fw-bold m-0">
+                        <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0 autocomplete-container position-relative">
+                            <label for="cityInput">Where?</label><br>
+                            <input type="text" class="hero_sec_inputs" id="cityInput" placeholder="Location">
+                            <ol id="suggestionList"
+                                style="list-style: none; position: absolute; color: white; z-index: 1;overflow-y: auto; max-height: 150px;">
+                            </ol>
+                        </div>
+                        <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0 my-sm-3 my-md-0">
+                            <label for="inDate">Check in</label><br>
+                            <input type="date" class="hero_sec_inputs">
+                        </div>
+                        <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0">
+                            <label for="outDate">Check out</label><br>
+                            <input type="date" class="hero_sec_inputs">
+                        </div>
+                        <div class=" col-7 col-md-4 col-lg-3 col-xl-1 p-0 my-sm-3 my-md-0 w-sm-50">
+                            <label for="">Adult</label><br>
+                            <input type="number" class="hero_sec_inputs" placeholder="01">
+                        </div>
+                        <div class="col-7 col-md-4 col-lg-3 col-xl-1 p-0">
+                            <label for="">Child</label><br>
+                            <input type="number" class="hero_sec_inputs" placeholder="00">
+                        </div>
+                        <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0 text-center">
+                            <br>
+                            <button type="submit" class="hero_sec_btn">CLICK HERE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </section>
+
+    <!-- 2nd-SECTION**************HTML -->
+
+    <section class="section_2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 section_2_img p-0">
+                    <img src="assets/images/travel-section-2-img.png" alt="#" class="w-100">
+                </div>
+                <div class="col-lg-6 section_2_bg">
+                    <div class="row p-5 p-lg-4">
+                        <h2 class="all_sec_heading common_font fw-bold">Trusted since 2001</h2>
+                        <h3>We are Exploore</h3>
+                        <p class="sec_2_para fw-bold fs-7 py-3 py-lg-0 py-xl-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Cupiditate est cumque deleniti, earum facere tempora nobis incidunt! Nam,
+                            ea expedita maxime,
+                            fuga, culpa debitis soluta error officiis repellat illo magnam.</p>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-circle-check" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-11">
+                                <p class="sec_2_para fw-bold fs-7">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Cumque quibusdam eius eum possimus a velit aliquam.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-circle-check" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-11">
+                                <p class="sec_2_para fw-bold fs-7">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Cumque quibusdam eius eum possimus a velit aliquam.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-circle-check" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-11">
+                                <p class="sec_2_para fw-bold fs-7">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Cumque quibusdam eius eum possimus a velit aliquam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVCES-SECTION**************HTML -->
+
+    <div class="container">
+        <div class="row p-5 text-center">
+            <h2 class="all_sec_headings common_font fw-bold">Our Best Services</h2>
+            <h3>We are Travel Agent</h3>
+        </div>
+        <div class="row pb-5">
+            <div class="col-sm-12 col-md-6">
+                <div class="row justify-content-around justify-content-md-start">
+                    <div class="col-2">
+                        <i class="fa-solid fa-plane fs-2" style="color: #00a4ff;"></i>
+                    </div>
+                    <div class="col-8">
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet
+                            dolor euismod.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-around justify-content-md-start">
+                    <div class="col-2">
+                        <i class="fa-solid fa-landmark fs-2" style="color: #00a4ff;"></i>
+                    </div>
+                    <div class="col-8">
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet
+                            dolor euismod.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-around justify-content-md-start">
+                    <div class="col-2">
+                        <i class="fa-solid fa-utensils fs-2" style="color: #00a4ff;"></i>
+                    </div>
+                    <div class="col-8">
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet
+                            dolor euismod.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row justify-content-around justify-content-md-start">
+                    <div class="col-2">
+                        <i class="fa-solid fa-train fs-2" style="color: #00a4ff;"></i>
+                    </div>
+                    <div class="col-8">
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet
+                            dolor euismod.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-around justify-content-md-start">
+                    <div class="col-2">
+                        <i class="fa-solid fa-bicycle fs-2" style="color: #00a4ff;"></i>
+                    </div>
+                    <div class="col-8">
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet
+                            dolor euismod.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-around justify-content-md-start">
+                    <div class="col-2">
+                        <i class="fa-solid fa-eye fs-2" style="color: #00a4ff;"></i>
+                    </div>
+                    <div class="col-8">
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet
+                            dolor euismod.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Cards************section -->
+
+    <div class="container text-center">
+        <div class="row py-5">
+            <h2 class="all_sec_headings common_font fw-bold">Our Best Services</h2>
+            <h3>We are Travel Agent</h3>
+        </div>
+        <div class="row justify-content-evenly pb-5">
+            CARD-----1
+            <div class="col-10 col-lg-5 col-xl-3">
+                <div class="card">
+                    <div class="row">
+                        <i class="fa-solid fa-car fs-1 py-3"></i>
+                        <h6 class="fw-bold common_font">Low Budget Trip</h6>
+                    </div>
+                    <div class="row price_tag p-1 my-2">
+                        <span class="fs-5 fw-bold">500$</span>
+                    </div>
+                    <div class="row px-2 py-3">
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Lorem ipsum, dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Sit amet conscet</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Eutrapidiscinng emit</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Psum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD-----2  -->
+            <div class="col-10 col-lg-5 col-xl-3 my-5 my-lg-0">
+                <div class="card">
+                    <div class="row">
+                        <i class="fa-solid fa-train fs-1 py-3"></i>
+                        <h6 class="fw-bold common_font">Mid Budget Trip</h6>
+                    </div>
+                    <div class="row price_tag p-1 my-2">
+                        <span class="fs-5 fw-bold">800$</span>
+                    </div>
+                    <div class="row px-2 py-3">
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Lorem ipsum, dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Sit amet conscet</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Eutrapidiscinng emit</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Psum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD-----3  -->
+            <div class="col-10 col-lg-5 col-xl-3 mt-lg-5 mt-xl-0">
+                <div class="card">
+                    <div class="row">
+                        <i class="fa-solid fa-plane fs-1 py-3"></i>
+                        <h6 class="fw-bold common_font">High Budget Trip</h6>
+                    </div>
+                    <div class="row price_tag p-1 my-2">
+                        <span class="fs-5 fw-bold">1000$</span>
+                    </div>
+                    <div class="row px-2 py-3">
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Lorem ipsum, dolor</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Sit amet conscet</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Eutrapidiscinng emit</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly align-items-center">
+                            <div class="col-2 p-0 text-end"><i class="fa-solid fa-circle-check fs-8"
+                                    style="color: #00a4ff;"></i></div>
+                            <div class="col-7 p-0 text-start">
+                                <p class="fs-8 m-0">Psum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- BUTTON-GROUP************section  -->
+
+    <section>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-5 col-xl-6 p-2" style="display: inline-block;">
+                    <div id="imageContainer" class="sec_5_img"
+                        style="background-image: url(Assets/Images/travel-section-5-img.png); background-size: cover; height: 24rem; width: revert-layer;">
+                    </div>
+                </div>
+                <div class="col-11 col-lg-7 col-xl-6" style="display: inline-block; float: right;">
+                    <h2 id="heading" class="all_sec_heading common_font fw-bold">Trusted since 2001</h2>
+                    <h3 id="subHeading">We are Travel Agent</h3>
+                    <div class="btn-group my-4" role="group" aria-label="Large button group">
+                        <button type="button" id="flight_btn" class="btn-primary flight_btn"
+                            onclick="changeContent('flight')"><i class="fa-solid fa-plane fs-5"
+                                style="color: #fff;"></i><span class="text-white fw-bold ps-2">flight</span></button>
+                        <button type="button" id="flight_btn" class="cab_btn" onclick="changeContent('cab')"><i
+                                class="fa-solid fa-car fs-5"></i><span class="fw-bold ps-2">Cab</span></button>
+                        <button type="button" id="flight_btn" class="hotel_btn bg-white"
+                            onclick="changeContent('hotel')"><i class="fa-solid fa-landmark fs-5"></i><span
+                                class="fw-bold ps-2">Hotel</span></button>
+                    </div>
+                    <p id="content" class="fw-bold fs-8 pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Facere aperiam ad nobis, id soluta asperiores. Necessitatibus, obcaecati. Minus quisquam
+                        assumenda voluptate iure eaque quos doloribus! Quisquam consequatur eos doloremque perferendis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequuntur accusantium
+                        quis debitis sed similique repudiandae aut, est necessitatibus, exercitationem ipsam velit eos
+                        asperiores fuga ab modi. Rem, aperiam quae</p>
+                    <button class="header_btn mb-2">CLICK HERE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pb-5">
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <h1 class="text-center">Pack and Go</h1>
+                <p class="fs-1 text-center">Awesome Tours</p>
+                <div class="row justify-content-center position-relative">
+                    <div class="design-0 col-lg-4 col-md-4 p-0 w-auto position-relative">
+                        <div class="card" style="width: 17rem;">
+                            <img src="assets/images/right.jpg" class="card-img-top" alt="...">
+                            <div class="card-body bg-white">
+                                <p class="text-center">7 Day + 6 Night</p>
+                                <h1 class="text-center fs-3"><b>New York + Paris</b></h1>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                </p>
+                                <h1 class="text-center fs-1"><b>$600</b></h1>
+                                <button class="btn bg-warning position-relative"
+                                    style="left: 57px; font-size: large;">BOOK NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" design-1 col-lg-4 col-md-4 p-0 w-auto position-relative"
+                        style="bottom: 15px; right: 1px;  z-index: 1;">
+                        <div class="card" style="width: 17rem;">
+                            <img src="assets/images/middle1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body bg-white">
+                                <p class="text-center">7 Day + 6 Night</p>
+                                <h1 class="text-center fs-3"><b>New York + Paris</b></h1>
+                                <div class="card-text text-center"><span class="lorem1">Lorem ipsum dolor sit
+                                        amet,consectetur adipiscing
+                                        elit.</span><span class="lorem2">Lorem ipsum dolor sit amet,consectetur
+                                        adipiscing
+                                        elit.</span></div>
+                                <h1 class="rupees text-center fs-1"><b>$600</b></h1>
+                                <button class="btn bg-warning position-relative"
+                                    style="left: 57px; font-size: large;">BOOK NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id=" design-11" class=" design-2 col-lg-4 col-md-4 p-0 w-auto position-relative"
+                        style="right: 9px; z-index: 0;">
+                        <div class="card" style="width: 17rem;">
+                            <img src="assets/images/left.jpg" class="card-img-top" alt="...">
+                            <div class="card-body bg-white">
+                                <p class="text-center">7 Day + 6 Night</p>
+                                <h1 class="text-center fs-3"><b>New York + Paris</b></h1>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                </p>
+                                <h1 class="text-center fs-1"><b>$600</b></h1>
+                                <button class="btn bg-warning position-relative"
+                                    style="left: 57px; font-size: large;">BOOK NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section1">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h1 class="pt-5">Trusted Since 2001</h1>
+                <p class="fs-1">GO EXPLOORE</p>
+            </div>
+            <div class="row justify-content-center pb-5 d-flex">
+                <div class="first col-lg-4 col-md-6 col-sm-12 col-mb-12 w-auto">
+                    <div class="card bus" style="width: 17rem; top: 24%; height: 60%;">
+                        <img src="assets/images/Travel-Tour-Booking-Website-Free-PSD_03.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body mt-1 bg-white">
+                            <button class="busbtn">CLICK HERE</button>
+                            <h5 class="card-title text-center">Lorem Ipsum Dolar</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipiscing
+                                elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12 col-mb-12 w-auto" id="first">
+                    <div class="card bus" style="width: 17rem; top: 3%; height: 60%;">
+                        <img src="assets/images/Travel-Tour-Booking-Website-Free-PSD_04.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body mt-1 bg-white">
+                            <button class="busbtn" id="busbtn">CLICK HERE</button>
+                            <h5 class="card-title text-center">Lorem Ipsum Dolar</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipiscing
+                                elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="first col-lg-4 col-md-6 col-sm-12 col-mb-12 w-auto">
+                    <div class="card bus" style="width: 17rem; top: 24%; height: 60%;">
+                        <img src="assets/images/Travel-Tour-Booking-Website-Free-PSD_05.jpg" class="card-img-top">
+                        <div class="card-body mt-1 bg-white">
+                            <button class="busbtn">CLICK HERE</button>
+                            <h5 class="card-title text-center">Lorem Ipsum Dolar</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipiscing
+                                elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="first1 col-xl-7 col-lg-7 col-md-5 col-sm-">
+                    <img class="Image w-auto" src="assets/images/chairs.png">
+                </div>
+                <div class="second2  col-xl-5 ">
+                    <div class=" card card-body" style="top: 13%; font-size: 16px;">
+                        <h2 class="card-title">New York + Paris</h2>
+                        <p class="card-text "><b>7 Day + 6 Night</b></p>
+                        <div class="row d-flex">
+                            <span class="col">
+                                <i class="fa-solid fa-jet-fighter-up fs-4 text-info"></i>
+                                <p>Flight</p>
+                            </span>
+                            <span class="col">
+                                <i class="fa-solid fa-car fs-4 text-info"></i>
+                                <p>Transport</p>
+                            </span>
+                            <span class="col">
+                                <i class="fa-solid fa-car fs-4 text-info"></i>
+                                <p class="">Transport</p>
+                            </span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do<br> tempor incididunt ut
+                            labore dolore magna aliqua.</p>
+                        <span class="d-flex">
+                            <h2 class="fs-2">$1000</h2>
+                            <button class="fs-4 bg-warning mx-5" style="height: fit-content;border: none;">BOOK
+                                NOW</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <div class="row text-white text-center justify-content-center py-4">
+                <h1>Customer Reviews</h1>
+                <p class="fs-2">We Are Traval Agent</p>
+                <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="row justify-content-center text-center d-flex">
+                <div class="col-lg-1 col-md-2 col-sm-2 col-mb-1">
+                    <img src="Assets/Images/Travel-Tour-Booking-Website-Free-PSD_08.png">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-mb-3 text-white ">
+                    <h2>John Simth</h2>
+                    <p>Sollo Traveller</p>
+                </div>
+            </div>
+        </div>
+        <div class="py-3"></div>
+        <footer>
+            <section class="section3">
+                <div class="container">
+                    <div class="row text-center fs-4 text-white py-5">
+                        <h1>Start Your Journey</h1>
+                        <p class="text-center ">Contact us</p>
+                        <div style="top: 75px;"
+                            class="col-lg-12 col-md-12 col-sm-12 text-center position-relative text-warning">
+                            <i class="fa-solid fa-location-dot lofont" style="font-size: 155px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-dark-50 bg-white">
+                <div class="container">
+                    <div class="row d-flex py-5">
+                        <div class=" res1 col-lg-4 col-md-6 col-sm-6 col-mb-6">
+                            <div class="row" style="width: fit-content;">
+                                <div class="col fs-1">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <span class="col">
+                                    <h3>EMAIL</h3>
+                                    <p>free@psdfreebies.com</p>
+                                    <p>free@psdfreebies.com</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class=" res1 col-lg-4 col-md-6 col-sm-6 col-mb-6">
+                            <div class="row" style="width: fit-content;">
+                                <div class="col ">
+                                    .... <i class="fa-thin fa-mobile-screen"></i> ....
+                                </div>
+                                <span class="coll">
+                                    <h3>CALL US!</h3>
+                                    <span>+123 456 7890<br>+123 456 7890</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class=" res1 col-lg-4 col-md-6 col-sm-12 col-mb-12">
+                            <div class="row" style="width: fit-content;">
+                                <div class="col fs-1">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <span class="col">
+                                    <h3>ADRESS</h3>
+                                    <p>123, Main Road, New City, My</p>
+                                    <p> Country 123456</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center d-flex pb-5">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto cir">
+                            <i class="fa-brands fa-facebook-f fs-4"></i>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto">
+                            <i class="fa-brands fa-google-plus-g fs-4 cir"></i>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto">
+                            <i class="fa-brands fa-square-youtube fs-4"></i>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto">
+                            <i class="fa-brands fa-linkedin-in fs-4"></i>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto">
+                            <i class="fa-brands fa-square-youtube fs-4"></i>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto">
+                            <i class="fa-brands fa-square-youtube fs-4"></i>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-mb-1 w-auto">
+                            <i class="fa-brands fa-square-youtube fs-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-warning text-black">
+                <div class="container py-4">
+                    <div class="row col-lg-12 col-md-12 col-sm-12 text-center">
+                        <p class="fs-5">Designed By PSDFreebies.com</p>
+                        <p class="fs-5">Copyright 2020, All Right Reserved</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+        <script type="text/javascript" src="Assets/lastpro.js">
+        </script>
+</body>
+
+</html>

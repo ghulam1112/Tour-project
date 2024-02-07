@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	height: 96vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(pexels-pixabay-101529.jpg);
+	background-size: cover;
+}
+.nav{
+	width: 100%;
+}
+.navbar{
+	padding: 0 15px;
+}
+.nav-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo a{
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+li a{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 30px;
+	padding: 10px;
+	transition: 1s linear;
+	border-radius: 10px;
+	cursor: pointer;
+}
+li a:hover{
+	background-color: black;
+	color:#f5f5f5 ;
+}
+.Sign .active{
+	background-color: #271813;
+}
+.Sign .active a{
+	color: #f5f5f5;
+}
+button{
+	transition: 3s linear;
+	margin-left: 10px;
+	padding: 11px;
+	width: 90px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+button a{
+	font-size: 15px;
+	font-weight: bold;
+	color: #271813;
+}
+button a:hover{
+	color: #f5f5f5;
+}
+.reg:hover{
+   background-color: #271813;
+}
+.container{
+	margin: 100px;
+}
+form{
+	width: 360px;
+	height: 360px;
+	background-color: transparent;
+	border: 2px solid white;
+	box-shadow: 0 0 20px -6px #a3a3a3;
+	border-radius: 10px;
+	backdrop-filter: blur(20px);
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 24px;
+	color: #271813;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+input[type=text], input[type=password]{
+	width: 300px;
+	height: 52px;
+	font-size: 14px;
+	margin-bottom: 2px;
+	padding-left: 15px;
+	border: 2px solid #dfdfdf;
+	background: transparent;
+	border-radius: 25px;
+	border-bottom: 2px solid #dfdfdf;
+	outline: none;
+}
+input::-webkit-input-placeholder{
+	color: #000000;
+}
+.btn{
+	width: 300px;
+	height: 52px;
+	font-size: 18px;
+	margin: 15px 0 5px 0;
+	cursor: pointer;
+	border: none;
+	background-color: #f7f7f7;
+	border-radius: 25px;
+	color: #271813;
+	transition: _2s linear;
+}
+.btn:hover{
+	border: 4px solid #271813;
+}
+.text{
+	width: 300px;
+	display: inline-table;
+	margin-bottom: 10px;
+}
+.remember{
+	color: black;
+    font-size: 14px;
+    transition: _3s linear;
+    cursor: pointer;
+}
+.remember:hover{
+	color: #302f2f;
+}
+.forget-password{
+	font-size: 14px;
+	float: right;
+	margin-top: 3px;
+}
+.forget-password a{
+	text-decoration: none;
+	color: #000000;
+}
+.forget-password a:hover{
+	text-decoration: underline  ;
+}
+	</style>
+</head>
+<body>
+    <div class="nav">
+    	<div class="navbar">
+    		<div class="nav-box">
+    			<div class="logo"><a href="a">Logo</a></div>
+    			<div class="menu">
+    				<ul>
+    					<li><a href="a">Home</a></li>
+    					<li><a href="a">Service</a></li>
+    					<li><a href="a">Blog</a></li>
+    					<li><a href="a">Contact</a></li>
+    				</ul>
+    			</div>
+    			<div class="Sign">
+    			    <button class="reg active"><a href="a">Sign In</a></button>
+    			    <button class="reg"><a href="a">Sign Out</a></button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="container">
+    	<form action="" method="">
+    		<div class="title">
+    			<h2>Please Sign In</h2>
+    		</div>
+    		<div class="box">
+    			<input type="text" name="" placeholder="Username" required>
+    			<input type="password" name="" placeholder="Password" required>
+    			<div class="text">
+    				<span class="remember"><input type="checkbox">
+    					<b>Remember me</b>
+    				</span>
+    				<span class="forget-password">
+    					<a href="a">Forget Password</a>
+    				</span>
+    				<button class="btn">Login</button>
+    			</div>
+    		</div>
+    	</form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+
+                                                                                /* COMMON-USE*********CSS */
+.common_font{
+    font-family: 'Montserrat', sans-serif;
+}
+.fs-7{
+    
+    font-size: 14px;
+} 
+.fs-8{
+    
+    font-size: 12px;
+} 
+                                                                                /* HEADER*********CSS */
+
+.header-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/travel-header-bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar-nav a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #ffdd00;
+    margin: auto;
+    display: block;
+}
+.nav_line{
+    height: 3px;
+    width: 100%;
+    background-color: #707786;
+}
+.navbar-nav a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+
+}
+.nav_button{
+    border: none;
+    background: none;
+}
+.header_top_headng{
+    font-size: 60px;
+}
+.header_bottom_heading{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.header_content{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 140px 0px;
+}
+.header_para{
+    padding: 10px 0px;
+}
+.header_btn{
+    padding: 10px 40px;
+    background-color: #ffdd00;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+}
+
+                                                                                /* HERO-SECTION*********CSS */
+
+.hero_sec_bg{
+    background-color: #f0d839;
+}
+.hero_sec_heading{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.hero_sec_content{
+    padding: 70px 0px;
+}
+input{
+    width: 100%;
+}
+.hero_sec_btn{
+    padding: 6px 40px;
+    color: white;
+    background-color: #4d4d4d;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.hero_sec_inputs{
+    padding: 4px 0px 4px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+                                                                                /* 2nd*****SECTION*********CSS */
+
+.section_2_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_2_bg{
+    background-image: url(../images/travel-section-2-bg.png);
+}
+
+                                                                                /* Services*****Section*********CSS */
+
+.services_sec_bg{
+    background-image: url(../images/Travel-services-section-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+}
+.price_tag{
+    background-color: #f0d839;
+}
+
+                                                                               /*SECTION********5*********CSS  */
+
+.sec_5_img{
+    background-image: url(../images/travel-section-5-img.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
+    margin: 0px auto;
+}
+.flight_btn{
+    background-color: #00a4ff;
+    border: none
+}
+.cab_btn{
+    background-color: #e4e4e4;
+    border: 2px solid #00a4ff;
+    border-right: none;
+}
+.hotel_btn{
+    border: 2px solid #00a4ff;
+    border-left: none
+}
+                                                                                /* MEDIA*****QUERY*********CSS */
+
+@media(min-width: 320px){   /*Extra Small screen*/
+.header_content{
+    width: 75%;
+    padding: 70px 0px;
+}
+.header_top_headng{
+    font-size: 28px;
+}
+.header_bottom_heading{
+    letter-spacing: 6px;
+    font-size: 15px;
+}
+.header_para{
+    font-size: 12px;
+}
+.header_btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+} 
+@media(min-width: 576px){   /*small screen*/
+    .header_content{
+        width: 70%;
+        padding: 80px 0px;
+    }
+    .header_top_headng{
+        font-size: 40px;
+    }
+    .header_bottom_heading{
+        letter-spacing: 8px;
+        font-size: 20px;
+    }
+    .header_para{
+        font-size: 15px;
+    }
+    .header_btn{
+        padding: 8px 25px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+} 
+@media(min-width: 767px){   /*Medium screen*/
+    .header_content{
+        width: 65%;
+        padding: 100px 0px;
+    }
+    .header_top_headng{
+        font-size: 45px;
+    }
+    .header_bottom_heading{
+        font-size: 25px;
+    }
+    .header_para{
+        font-size: 16px;
+    }
+    .header_btn{
+        padding: 10px 35px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+}
+@media(min-width: 992px){   /*large screen*/
+    .header_content{
+        width: 60%;
+        padding: 100px 0px;
+    }
+    .header_top_headng{
+        font-size: 55px;
+    }
+    .header_bottom_heading{
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+    .header_para{
+        font-size: 16px;
+    }
+    .header_btn{
+        padding: 10px 40px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    .sec_2_para{
+        font-size: 12px;
+    }
+    .sec_5_img{
+        width: 70%;
+    }
+}
+@media(min-width: 1200px){   /*Extra large screen*/
+    .header_content{
+        padding: 145px 0px;
+    }
+    .sec_2_para{
+        font-size: 14px;
+    }
+    .sec_5_img{
+        width: 60%;
+    }
+}
